@@ -58,6 +58,20 @@ Contains historical credit-enquiry information, including:
 
 Contains customer demographic/application information and the target variable `Bad_label`.
 
+## 📌 Dataset Availability
+
+The project was developed using three datasets:
+
+- `Cust_Account.csv`
+- `Cust_Enquiry.csv`
+- `Cust_Demographics.csv`
+
+Due to the large size of `Cust_Account.csv` and data-distribution considerations, the complete Account dataset is not included in this public GitHub repository.
+
+The `Cust_Enquiry.csv` and `Cust_Demographics.csv` files are included in the `Bank_GoodCredit_Data` folder.
+
+The notebook contains the complete data-processing and feature-engineering workflow used with the original Account dataset.
+
 ## 📊 Dataset Size
 
 | Dataset | Rows | Columns |
